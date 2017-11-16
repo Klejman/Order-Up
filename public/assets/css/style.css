@@ -1,0 +1,58 @@
+
+body {
+    background-color: #f4c131;
+}
+
+img.center-block {
+    max-width: 30%;
+}
+
+h4.orderUp {
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+    text-shadow:
+            -1px -1px 0 #FFF,
+            1px -1px 0 #FFF,
+            -1px 1px 0 #FFF,
+            1px 1px 0 #FFF
+}
+
+
+h4.headline {
+    font-size: 25px;
+    color: #000;
+    text-shadow:
+            -1px -1px 0 #FFF,
+            1px -1px 0 #FFF,
+            -1px 1px 0 #FFF,
+            1px 1px 0 #FFF
+}
+
+
+label.orderUp {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    text-shadow:
+            -1px -1px 0 #FFF,
+            1px -1px 0 #FFF,
+            -1px 1px 0 #FFF,
+            1px 1px 0 #FFF
+}
+
+li.form-control {
+
+    margin: 2px 0 2px 0;
+}
+
+
+
+
+.form-control:first-child {
+    color: #000
+}
+
+.form-control:last-child {
+    color: lightgray;
+}

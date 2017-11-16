@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Eat da Burger Ron!</title>
+    <!-- Tab Image -->
+    <link rel="icon" href="assets/img/Ron%20Swanson%20Burger.jpeg"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <!-- my style sheet-->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery.js" async></script>
+</head>
+<body>
+
+<div class="container">
+    <br>
+        <div class="row">
+            <img class="center-block" src="assets/img/Ron_Burger.png"/>
+        </div>
+    <br>
+    {{{body}}}
+    <br>
+    <br>
+    <!-- Burger Order Form ...-->
+    <form action="burger/create/{{id}}" method="POST">
+
+        <div class="row">
+
+            <div class="col-md-3">
+
+            </div>
+
+            <!-- Enter Your Burger Order Here-->
+            <div class="form-group col-md-5">
+                <label for="new_burger" class="orderUp center-block"> Burgers Made RIGHT To Order!</label>
+                <textarea class="form-control" rows="4" id="new_burger" name="burger_name" placeholder="Enter your burger selection here"></textarea>
+            </div>
+
+            <div class="col-md-2"></div>
+
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-md-8"></div>
+
+            <button id="submit-button" type="submit" class="btn btn-danger">Place Order</button>
+
+    </form>
+
+    <br>
+
+</div>
+
+
+</body>
+</html>
