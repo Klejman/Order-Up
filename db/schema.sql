@@ -12,7 +12,7 @@ devoured BOOL DEFAULT FALSE,
 datetime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO burgers (burger_name, devoured) VALUES ('PORTOBELLO MUSHROOM BURGER', TRUE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('LAMB BURGER WITH GOAT CHEESE & RELISH', FALSE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('TURKEY BURGER',  TRUE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('ELK BURGER',  FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('portobello mushroom burger ', TRUE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('lamb burger with goat cheese & relish', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Ron Swanson turkey leg burger',  TRUE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('elk burger',  FALSE);
