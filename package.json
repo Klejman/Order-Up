@@ -4,6 +4,7 @@
   "description": "create and devour da burger",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +26,6 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.10",
     "mysql": "^2.15.0"
-  }
+  },
+
 }
