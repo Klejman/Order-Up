@@ -24,8 +24,6 @@ This application follows the MVC design pattern; Node and MySQL are used to quer
 
 #### Directory structure
 
-All the recommended files and directories from the steps above should look like the following structure:
-
 ```
 .
 ├── config
